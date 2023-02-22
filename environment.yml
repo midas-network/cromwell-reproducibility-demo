@@ -1,0 +1,11 @@
+name: seirs-conda
+channels:
+   - conda-forge
+dependencies:
+   - python=3.9
+   - matplotlib
+   - networkx=2.6.3
+   - seaborn
+   - pip
+   - pip:
+     - seirsplus
